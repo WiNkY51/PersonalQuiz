@@ -61,22 +61,31 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BO8-5L-Y8p">
+                                <rect key="frame" x="105" y="519.5" width="111" height="28.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Настройки">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="voV-sK-PGR" secondAttribute="bottom" constant="20" id="81y-r4-ULs"/>
+                            <constraint firstItem="oCi-ap-t7b" firstAttribute="leading" secondItem="BO8-5L-Y8p" secondAttribute="trailing" constant="50" id="DAy-lb-vTW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oCi-ap-t7b" secondAttribute="trailing" constant="20" id="EcE-IF-gds"/>
                             <constraint firstItem="7x5-fz-abR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="HYg-Df-EVz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7x5-fz-abR" secondAttribute="trailing" constant="20" id="cWb-Xf-eZf"/>
                             <constraint firstItem="1mp-iB-NoY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="cd8-Xl-u2U"/>
                             <constraint firstItem="xQD-Ov-dzY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fma-0Z-8b1"/>
                             <constraint firstItem="7x5-fz-abR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="xQD-Ov-dzY" secondAttribute="trailing" constant="212" id="hB3-98-4XT"/>
+                            <constraint firstItem="BO8-5L-Y8p" firstAttribute="leading" secondItem="voV-sK-PGR" secondAttribute="trailing" constant="51" id="hUS-lz-7RY"/>
                             <constraint firstItem="voV-sK-PGR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lUt-2R-sGW"/>
                             <constraint firstItem="xQD-Ov-dzY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="m15-RY-ZTG"/>
                             <constraint firstItem="1mp-iB-NoY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qDK-hF-GBh"/>
-                            <constraint firstItem="oCi-ap-t7b" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="voV-sK-PGR" secondAttribute="trailing" constant="212" id="wc3-D2-r8w"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oCi-ap-t7b" secondAttribute="bottom" constant="20" id="ygn-l1-iOT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BO8-5L-Y8p" secondAttribute="bottom" constant="20" id="yzr-uw-Yp2"/>
                         </constraints>
                     </view>
                 </viewController>
